@@ -1,0 +1,17 @@
+{
+  "name": "@erp/web-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo Start the React Native Web bundler here",
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@erp/shared-types": "*",
+    "react": "^19.1.1",
+    "react-native": "^0.81.4",
+    "react-native-web": "^0.21.1"
+  }
+}

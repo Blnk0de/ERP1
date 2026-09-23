@@ -1,0 +1,20 @@
+{
+  "name": "@erp/api-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "build": "node --check server.js && node --check src/app.js",
+    "typecheck": "node --check server.js && node --check src/app.js",
+    "lint": "node --check server.js && node --check src/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0",
+    "morgan": "^1.10.0"
+  }
+}
